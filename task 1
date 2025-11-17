@@ -1,0 +1,6 @@
+#Check if a number is Even or Odd
+Number=int(input("Enter a number:"))
+if Number%2!=0:
+    print(f"{Number} is an odd number")
+else:
+    print(f"{Number} is an even number")
